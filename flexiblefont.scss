@@ -1,0 +1,7 @@
+// flexible font with SASS
+@mixin ff($targ: 12, $family: Helvetica, $weight: 400, $lh: 1.1, $type: rem, $context: 16) {
+    font-size: #{($targ / $context)}#{$type};
+    font-family: $family;
+    font-weight: $weight;
+    line-height: $lh;
+}
