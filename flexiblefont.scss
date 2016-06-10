@@ -12,4 +12,4 @@
 @include ff(27, Verdana,  500, em, 22);
 
 /* fluindo font-size de 27px para medida `rem` */
-@include ff(27, Verdana,  500);
+@include ff(27, $font,  500);
